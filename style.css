@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: grey;
+    padding: 110px;
+}
+.visa{
+    background-color: white;
+    height: 650px;
+    width: 900px;
+    margin-left: 80px;
+}
+.details-1{
+    position: relative;
+    top: 5%;
+    display: inline-flex;
+    left: 20%;
+    column-gap: 75px;
+}
+.details-1 span{
+    text-transform: uppercase;
+}
+.details-1 i, h4{
+    position: relative;
+    left: 24%;
+    font-weight: 700;
+    border: 2px solid #66ff66;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 4px;
+    color: #66ff66;
+}
+.customer #check{
+    position: relative;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+.customer{
+    margin-top: 20px;
+    position: relative;
+    line-height: 2;
+}
+.customer span{
+    position: relative;
+    top: 21%;
+}
+.confirmation #three{
+    background-color: gray;
+    color: white;
+    border-color: gray;
+}
+.methods{
+    position: relative;
+    display: inline-flex;
+    margin-top: 80px;
+    column-gap: 80px;
+    margin-left: 125px;
+}
+.methods input{
+    position: relative;
+    right: 10%;
+    background-color: #333;
+}
+.methods img{
+    height: auto;
+    outline: none;
+    /* max-width: 100%;
+    height: auto; */
+ 
+}
+.visacard{
+    margin-top: 9px;
+}
+.cash span{
+    font-size: 20px;
+    text-align: right;
+    outline: black;
+}
+.cash{
+    margin-top: 10px;
+}
+.card-detail{
+    position: relative;
+    top: 9%;
+    display: inline-flex;
+    column-gap: 50px;
+    left: 10%;
+    color: #333;
+}
+.card-detail input{
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    height: 30px;
+}
+.card-detail span{
+    font-weight: 800;
+}
+.expiry-date{
+    position: relative;
+    top: 12%;
+    display: inline-flex;
+    column-gap: 100px;
+    left: 12%;
+}
+.expiry-date span{
+    font-weight: 800;
+}
+.expiry-date input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.save{
+    position: relative;
+    top: 12%;
+    text-align: center;
+}
+.total{
+    position: relative;
+    top: 14%;
+    display: inline-block;
+}
+.total-1{
+    display: inline-flex;
+    column-gap: 300px;
+    position: relative;
+    left: 18%;
+}
+.total-1 #price{
+    position: relative;
+    left: 28%;
+    margin-bottom: 40px;
+}
+.total-1 span{
+    position: relative;
+    margin-top: 20px;
+}
+.home{
+    margin-left: 43px;
+    position: relative;
+    bottom: 20%;
+}
+.total-2{
+    position: relative;
+    top: 13%;
+}
+.amount{
+    display: inline-flex;
+    position: relative;
+    left: 10%;
+}
+.amount span{
+    font-weight: 800;
+}
+.amount h5{
+    margin-left: 474px;
+    margin-top: -8px;
+}
+.btn{
+    margin-top: 115px;
+}
+.btn-1 button{
+    height: 40px;
+    width: 600px;
+    margin-left: 140px;
+    font-weight: 700;
+}
+.btn-1 button:hover{
+    background-color: aqua;
+    color: white;
+    border: none;
+}
